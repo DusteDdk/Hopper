@@ -1,6 +1,6 @@
 {
-  "name": "hopper",
-  "version": "0.5.0",
+  "name": "@dusted/hopper",
+  "version": "0.5.1",
   "description": "Easymode nonblocking in-order sequential async processing",
   "main": "dist/Hopper.js",
   "types": "dist/Hopper.d.ts",

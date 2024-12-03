@@ -8,7 +8,7 @@ Whenever maintaining the order of async tasks is critical. For example, processi
 Call Hopper with your implementation, and get back a hopper that ensures your implementation is executed in sequence.
 
 
-# Module: `@dsteam/hopper`
+# Module: `@dusted/hopper`
 
 ## `Hopper(impl[, settings]) => hopperImpl => Promise`
 
