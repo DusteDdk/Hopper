@@ -1,4 +1,3 @@
-![](img/hopper.webp)
 ## Async processing: in sequence
 
 [![Node.js CI](https://github.com/DusteDdk/Hopper/actions/workflows/node.js.yml/badge.svg)](https://github.com/DusteDdk/Hopper/actions/workflows/node.js.yml)
