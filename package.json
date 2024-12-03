@@ -1,0 +1,45 @@
+{
+  "name": "hopper",
+  "version": "0.5.0",
+  "description": "Easymode nonblocking in-order sequential async processing",
+  "main": "dist/Hopper.js",
+  "types": "dist/Hopper.d.ts",
+  "files": [
+    "dist/Hopper.d.ts",
+    "dist/Hopper.js",
+    "src/",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run test && npm run build",
+    "test": "node --expose-gc ./node_modules/.bin/jest /test/"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DusteDdk/Hopper.git"
+  },
+  "keywords": [
+    "async",
+    "util",
+    "queue",
+    "processing",
+    "qualityoflife"
+  ],
+  "author": "DST",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/DusteDdk/Hopper/issues"
+  },
+  "homepage": "https://github.com/DusteDdk/Hopper#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
