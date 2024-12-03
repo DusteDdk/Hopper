@@ -1,6 +1,8 @@
 ![](img/hopper.webp)
 ## Async processing: in sequence
 
+[![Node.js CI](https://github.com/DusteDdk/Hopper/actions/workflows/node.js.yml/badge.svg)](https://github.com/DusteDdk/Hopper/actions/workflows/node.js.yml)
+
 Use this when you need to process async tasks in order, especially in workflows where overlapping operations could cause conflicts or inconsistent results.
 
 Whenever maintaining the order of async tasks is critical. For example, processing database queries that depend on the results of previous calls, updating shared in-memory data without risking race conditions, or handling APIs that require sequential operations to ensure consistency. It’s ideal for workflows where parallel execution could disrupt data integrity or lead to unpredictable behavior.
