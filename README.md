@@ -73,6 +73,10 @@ Default: All settings disabled.
 - If it returns false, it is removed from the settings object and thus not called again.
 - Default: undefined - nothing is called.
 
+## `HopperKeys() => { [key: string]: { refs: number, queued: number } }`
+Returns a map of coupled queues, by their keyname. For each, is provided the number of references and the number of items in the queue.  
+Mainly for debugging and interactive development.
+
 # Examples
 
 ## As a stand alone function

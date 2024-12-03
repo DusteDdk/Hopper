@@ -1,4 +1,4 @@
-import { Hopper } from "./Hopper";
+import { Hopper, Hopperkeys } from "./Hopper";
 
 class MyClass {
     private curItem = 0;
@@ -107,3 +107,4 @@ const stopTime = new Date().getTime();
 console.log(`Queueing took ${stopTime-startTime} ms`);
 console.log(`Processing results:\n${JSON.stringify(o.inst,null,4)}`);
 
+console.log(JSON.stringify(Hopperkeys()));
